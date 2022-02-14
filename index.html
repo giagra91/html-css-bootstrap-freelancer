@@ -18,55 +18,54 @@
 </head>
 <body>
 
-        <header>
-            <div class="container">
-            <div class="row">
-                    <div class="col-5 col-md-4 col-lg-4">
-                        <div class="my-blue-box"></div>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase text-white" href="#">Startup Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active text-uppercase text-white" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase text-white" href="#">Contact</a>
+                        </li>
+
                     </div>
                     
-                    <div class="offset-5 col-2 d-s-none d-md-none d-lg-none">
-                        <div class="my-blue-box"></div>
-                    </div>
-
-                    <div class="offset-md-4 col-md-4 offset-lg-4 col-lg-4 d-none d-sm-block d-sm-none d-md-block">
-                        <div class="my-blue-box row">
-                            <div class="col">
-                                <div class="my-green-box">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="my-green-box">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="my-green-box">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                </div>
             </div>
+        </nav>
 
-        </header>
-
-    </div>
+    </header>
 
     <main>
 
         <!-- Jumbotron -->
         <section class="mb-5" id="my-jumbotron">
             <div class="container mb-5 mx-auto">
+                <div class="row"></div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="mx-auto text-white text-uppercase text-center" id="my-jumbo-box">
+                        <div class="mx-auto text-white text-uppercase text-center py-5" id="my-jumbo-box">
                             <div class="avatar-image">
                                 <img src="img/avatar.svg" alt="avatar image">
                             </div>
-                            <h1>
+                            <h1 class="mb-3">
                                 Start Bootstrap
                             </h1>
-                            <div class="d-flex justify-content-evenly text-white">
+                            <div class="d-flex justify-content-evenly text-white mb-3">
                                 <span class="star-decoration"></span>
                                 <i class="fas fa-star"></i>
                                 <span class="star-decoration"></span>
@@ -86,7 +85,7 @@
                 <div class="col-12 pb-3 text-uppercase text-center">
                     <h1>Portfolio</h1>
                 </div>
-                <div class="col-12 pb-3">
+                <div class="col-12 mb-3 pb-3">
                     <div class="d-flex justify-content-center">
                         <div class="my-star-decoration"></div>
                         <i class="fas fa-star"></i>
@@ -138,7 +137,7 @@
                         <h1 class="text-uppercase">About</h1>
                     </div>
 
-                    <div class="col-12 mb-2 py-1">
+                    <div class="col-12 mb-3 py-1">
                         <div class="d-flex justify-content-evenly text-white">
                             <span class="star-decoration"></span>
                             <i class="fas fa-star"></i>
@@ -167,7 +166,7 @@
                     <h1 class="text-uppercase">Contact me</h1>
                 </div>
 
-                <div class="col-12 mb-2 py-1">
+                <div class="col-12 mb-4 py-1">
                     <div class="d-flex justify-content-evenly">
                         <span class="star-decoration"></span>
                         <i class="fas fa-star"></i>

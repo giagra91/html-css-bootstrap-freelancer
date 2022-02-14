@@ -81,7 +81,7 @@ div.avatar-image img{
     width: 40%;
 }
 
-span.star-decoration{
+.my-star-decoration{
     width: 100px;
     height: 7px;
 }
@@ -92,7 +92,11 @@ span.star-decoration{
 
 #about{
     background-color: #1abc9c;
-    height: 400px;
+}
+
+#contact-me{
+    color: rgb(44, 62, 80);
+
 }
 
 #my-footer-top{
